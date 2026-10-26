@@ -314,3 +314,7 @@ img{max-width:100%}
   .side .brand small{display:none}
   .who button{padding:7px 8px}
 }
+
+.log li .acts{margin-left:auto;display:flex;gap:6px}
+.log li b{min-width:110px}
+@media(max-width:520px){.log li .acts{margin-left:0;width:100%}.log li b{min-width:0}}
