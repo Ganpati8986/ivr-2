@@ -318,3 +318,4 @@ img{max-width:100%}
 .log li .acts{margin-left:auto;display:flex;gap:6px}
 .log li b{min-width:110px}
 @media(max-width:520px){.log li .acts{margin-left:0;width:100%}.log li b{min-width:0}}
+.log li input,.log li select{width:auto;flex:1 1 140px;min-width:0}
