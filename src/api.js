@@ -193,7 +193,7 @@
 
 // Browser-only "backend": login/upload/Omixo go through the Cloudflare Pages Function (/api/*),
 // notice history lives in this browser's localStorage. Demo build. The previous server client is in api.server.js.bak
-const KEY = 'vn_auth', NK = 'vn_notices', MAX_NOTICE = 2000, DAILY = 50;
+const KEY = 'vn_auth', NK = 'vn_notices', MAX_NOTICE = 2000, DAILY = 1500;
 const GROUP = (s) => (['completed', 'answered'].includes(s) ? 'done' : s === 'no_answer' ? 'missed' : s === 'failed' ? 'failed' : 'pending');
 const norm10 = (s) => String(s || '').replace(/\D/g, '').slice(-10);
 const validNum = (d) => /^[6-9]\d{9}$/.test(d);
