@@ -190,7 +190,7 @@
 //   throw new Error('Not found');
 // }
 
-
+// this is for new version
 // Browser-only "backend": login/upload/Omixo go through the Cloudflare Pages Function (/api/*),
 // notice history lives in this browser's localStorage. Demo build. The previous server client is in api.server.js.bak
 const KEY = 'vn_auth', NK = 'vn_notices', MAX_NOTICE = 2000, DAILY = 1500;
