@@ -93,7 +93,8 @@ export default function Records() {
     setErr('');
 
     try {
-      const response = await api('GET', '/records?limit=300');
+      // const response = await api('GET', '/records?limit=300');
+       const response = await api('GET', '/records');
 
       // Match the API response structure
       const records = Array.isArray(response?.records)
